@@ -1,0 +1,71 @@
+body {
+  background-color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* heading section */
+h1 {
+  text-align: center;
+  font-weight: 900;
+}
+
+h2 {
+  font-weight: 500;
+  position: relative;
+  width: 50%;
+  text-align: center;
+  float: right;
+  margin-top: 0;
+  border: 1px solid #000000;
+  border-top: 0px;
+  border-right: 0px;
+}
+
+h3 {
+  margin-top: 2rem;
+  text-align: left;
+  padding: 3%;
+  font-weight: 300;
+}
+
+/* column styling  */
+
+.col {
+  width: 30%;
+  margin: 2rem 1rem;
+  float: left;
+  background-color: #708090;
+  border: 1px solid #000000;
+}
+
+/* individual classes  */
+h2.chicken {
+  background-color: #d87093;
+}
+
+h2.beef {
+  background-color: #ff0000;
+  color: #ffffff;
+}
+
+h2.sushi {
+  background-color: #fce38a;
+}
+/* media query */
+@media (max-width: 767px) {
+  .col {
+    width: 95%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .col {
+    width: 45%;
+  }
+  .colSushi {
+    width: 95%;
+  }
+}
